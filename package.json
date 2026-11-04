@@ -1,0 +1,75 @@
+{
+    "author": "Axel Kark",
+    "dependencies": {
+        "@rebble/clay": "1.0.8"
+    },
+    "keywords": [
+        "pebble-app",
+        "watchface",
+        "analog",
+        "weather",
+        "moon"
+    ],
+    "name": "yourstyle-light",
+    "pebble": {
+        "capabilities": [
+            "configurable",
+            "health",
+            "location"
+        ],
+        "displayName": "Your Style Light",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPLATE",
+            "COLOR_BG",
+            "COLOR_DIAL",
+            "COLOR_HOUR",
+            "COLOR_MINUTE",
+            "COLOR_HUB",
+            "COLOR_TEXT",
+            "COLOR_ACCENT",
+            "COLOR_MOON_LIT",
+            "COLOR_MOON_DARK",
+            "SHOW_WEATHER",
+            "SHOW_MOON",
+            "SHOW_DATE",
+            "SHOW_STEPS",
+            "SHOW_TICKS",
+            "LANGUAGE",
+            "TEMP_UNIT",
+            "WEATHER_SYMBOL",
+            "TEMP_LO",
+            "TEMP_HI",
+            "CONDITION",
+            "REQUEST_WEATHER",
+            "MINUTE_TRACK",
+            "HAND_INLAY",
+            "DATE_WINDOW",
+            "MOON_RING",
+            "STEPS_BAR",
+            "STEP_GOAL"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/weather.png",
+                    "memoryFormat": "2BitPalette",
+                    "name": "IMAGE_WEATHER",
+                    "storageFormat": "pbi",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "ca722fc6-57ee-49b1-8be6-ba221f1526f8",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Your Style Light"
+  },
+  {
+    "type": "text",
+    "defaultValue": "A clean analog face with Roman numerals, bold hands, the weather with today's low and high, the moon phase and the date."
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Colours"
+      },
+      {
+        "type": "select",
+        "messageKey": "TEMPLATE",
+        "label": "Template",
+        "defaultValue": "classic",
+        "description": "Picking a template sets all colours below. Change any of them afterwards to make it your own.",
+        "options": [
+          {
+            "label": "Classic (black on white)",
+            "value": "classic"
+          },
+          {
+            "label": "Noir (white on black)",
+            "value": "noir"
+          },
+          {
+            "label": "Swiss (red accents)",
+            "value": "swiss"
+          },
+          {
+            "label": "Ivory",
+            "value": "ivory"
+          },
+          {
+            "label": "Blush",
+            "value": "blush"
+          },
+          {
+            "label": "Navy",
+            "value": "navy"
+          },
+          {
+            "label": "Ocean",
+            "value": "ocean"
+          },
+          {
+            "label": "Forest",
+            "value": "forest"
+          },
+          {
+            "label": "Plum",
+            "value": "plum"
+          },
+          {
+            "label": "Sport",
+            "value": "sport"
+          },
+          {
+            "label": "Custom",
+            "value": "custom"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_BG",
+        "label": "Background",
+        "defaultValue": "FFFFFF",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_DIAL",
+        "label": "Numerals and ticks",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_HOUR",
+        "label": "Hour hand",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_MINUTE",
+        "label": "Minute hand",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_HUB",
+        "label": "Centre hub",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_TEXT",
+        "label": "Text and weather symbol",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_ACCENT",
+        "label": "Highlights (day, high, steps)",
+        "defaultValue": "000000",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_MOON_LIT",
+        "label": "Moon, lit side",
+        "defaultValue": "FFFFFF",
+        "sunlight": true
+      },
+      {
+        "type": "color",
+        "messageKey": "COLOR_MOON_DARK",
+        "label": "Moon, dark side",
+        "defaultValue": "000000",
+        "sunlight": true
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Style"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "MINUTE_TRACK",
+        "label": "Minute track",
+        "description": "Fine minute marks around the edge.",
+        "defaultValue": false
+      },
+      {
+        "type": "select",
+        "messageKey": "HAND_INLAY",
+        "label": "Hand inlay",
+        "defaultValue": "0",
+        "options": [
+          {
+            "label": "Solid",
+            "value": "0"
+          },
+          {
+            "label": "Hollow (background colour)",
+            "value": "1"
+          },
+          {
+            "label": "Inlay in highlight colour",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "type": "toggle",
+        "messageKey": "DATE_WINDOW",
+        "label": "Frame around the date",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "MOON_RING",
+        "label": "Ring around the moon",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "STEPS_BAR",
+        "label": "Step goal bar",
+        "defaultValue": true
+      },
+      {
+        "type": "slider",
+        "messageKey": "STEP_GOAL",
+        "label": "Daily step goal",
+        "defaultValue": 10000,
+        "min": 2000,
+        "max": 20000,
+        "step": 500
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Show"
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_WEATHER",
+        "label": "Weather",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_MOON",
+        "label": "Moon phase",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_DATE",
+        "label": "Date",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_STEPS",
+        "label": "Steps",
+        "defaultValue": true
+      },
+      {
+        "type": "toggle",
+        "messageKey": "SHOW_TICKS",
+        "label": "Hour ticks",
+        "defaultValue": true
+      },
+      {
+        "type": "select",
+        "messageKey": "LANGUAGE",
+        "label": "Weekday and labels",
+        "defaultValue": "0",
+        "options": [
+          {
+            "label": "English (Mon, STEPS)",
+            "value": "0"
+          },
+          {
+            "label": "German (Mo, SCHRITTE)",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Weather"
+      },
+      {
+        "type": "select",
+        "messageKey": "WEATHER_SYMBOL",
+        "label": "Weather symbol",
+        "defaultValue": "now",
+        "options": [
+          {
+            "label": "Current conditions",
+            "value": "now"
+          },
+          {
+            "label": "Today's forecast",
+            "value": "today"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "messageKey": "TEMP_UNIT",
+        "label": "Temperature unit",
+        "defaultValue": "auto",
+        "options": [
+          {
+            "label": "Automatic (phone region)",
+            "value": "auto"
+          },
+          {
+            "label": "Celsius",
+            "value": "celsius"
+          },
+          {
+            "label": "Fahrenheit",
+            "value": "fahrenheit"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "defaultValue": "Weather comes from <a href=\"https://open-meteo.com\">Open-Meteo</a> for your current location, every 30 minutes. No account needed. The two numbers are today's high and low."
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]

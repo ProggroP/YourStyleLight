@@ -1,0 +1,51 @@
+YOUR STYLE LIGHT - Rebble App Store listing
+
+Wird bei jeder Veroeffentlichung mit aktualisiert. Englisch, weil der Store international ist. Reiner Text, ein Absatz pro Zeile, damit sich die Abschnitte ohne Nacharbeit in die Store-Felder uebernehmen lassen.
+
+-------------------------------------------------------------------------
+
+TITLE
+
+Your Style Light
+
+
+TAGLINE
+
+A clean analog face with weather, moon phase and date.
+
+
+DESCRIPTION
+
+Your Style Light is the easy-going sibling of Your Style: a classic analog dial with Roman numerals at XII, III, VI and IX, bold rounded hands and a small centre hub, ready to wear without touching a single setting.
+
+Inside the dial you find everything you glance at during the day. At the top a weather symbol with today's high and low temperature. On the left the current moon phase. On the right the weekday and the date in a small date window. At the bottom your steps for today, with a slim bar that fills up towards your daily goal.
+
+The weather symbols are drawn with soft edges and take on the colours of your theme. There are twelve of them, from clear sky and partly cloudy (each in a day and a night version) to fog, drizzle, rain, showers, snow, sleet and thunderstorms.
+
+Black on white is the default. Ten colour templates are one tap away in the settings: Classic, Noir, Swiss, Ivory, Blush, Navy, Ocean, Forest, Plum and Sport. Each template is only a starting point, every colour can be changed on its own afterwards.
+
+Pebble Round 2 and Pebble Time 2 each get their own layout: numerals and ticks follow the round rim on one and the rectangular edge on the other.
+
+Weather comes from Open-Meteo for your current location, every 30 minutes. No account and no API key are needed. The face redraws once a minute.
+
+
+SETTINGS
+
+- Template - Classic, Noir, Swiss, Ivory, Blush, Navy, Ocean, Forest, Plum, Sport or Custom.
+- Colours - background, numerals and ticks, hour hand, minute hand, centre hub, text and weather symbol, highlights, and both sides of the moon.
+- Style - minute track, solid, hollow or inlaid hands, frame around the date, ring around the moon, step goal bar and daily step goal.
+- Show - weather, moon phase, date, steps and hour ticks, each on or off.
+- Language - English or German weekdays and labels.
+- Weather - current conditions or today's forecast as the symbol; temperature in Celsius, Fahrenheit or automatically by phone region.
+
+
+CATEGORY
+
+Watchfaces (Analog / Weather)
+
+
+RELEASE NOTES
+
+1.0.0
+
+First release.
